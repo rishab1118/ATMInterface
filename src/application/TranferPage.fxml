@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TransferFund">
+   <children>
+      <ImageView fitHeight="118.0" fitWidth="357.0" layoutX="-20.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\USER\Downloads\banner.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="t9" layoutX="94.0" layoutY="175.0" />
+      <Label layoutX="70.0" layoutY="137.0" text="Payee Account Number">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="217.0" text="Amount">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="t10" layoutX="94.0" layoutY="257.0" />
+      <Button layoutX="119.0" layoutY="303.0" mnemonicParsing="false" onAction="#Transfer" prefHeight="44.0" prefWidth="95.0" style="-fx-background-color: #b90505;" text="Transfer" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

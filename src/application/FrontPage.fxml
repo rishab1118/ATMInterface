@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="432.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FrontPageCode">
+   <children>
+      <ImageView fitHeight="187.0" fitWidth="339.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\USER\Downloads\kotak.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="t1" layoutX="95.0" layoutY="228.0" prefHeight="42.0" prefWidth="151.0" promptText="USERID" />
+      <TextField fx:id="t2" layoutX="95.0" layoutY="286.0" prefHeight="42.0" prefWidth="151.0" promptText="ATM PIN" />
+      <Button layoutX="134.0" layoutY="349.0" mnemonicParsing="false" onAction="#userCheck" style="-fx-background-color: red;" text="ENTER" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
